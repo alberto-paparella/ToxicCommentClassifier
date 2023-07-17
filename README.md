@@ -20,3 +20,10 @@ The designed model must predict a probability of each type of toxicity for each 
  - test_labels.csv - labels for the test data; value of -1 indicates it was not used for scoring
 
 The dataset is under [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/), with the underlying comment text being governed by [Wikipedia's CC-SA-3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+
+## Python notebooks
+
+The project is divided into 3 notebooks:
+ - `toxic_comment_classifier` contains the core kernel, featuring data analysis and machine learning algorithms as logistic regression and naive-bayes
+ - `lstm-tcc` contains the LSTM kernel
+ - `bert-tcc` contains the BERT fine-tuning kernel
